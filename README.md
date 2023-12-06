@@ -39,5 +39,3 @@ Refer to the image below
 1. In the Aside component, create another list showcasing the fastest recipes (those that take 40 minutes or less to cook).
 1. Replace the "All Recipes" header with an image of your choice. You can add this image to your directory or use an external link (with 'http').
 1. Consider additional features or information you could incorporate into this app.
-
-<img src="./src/images/bonus.png" width="600" height="500">
