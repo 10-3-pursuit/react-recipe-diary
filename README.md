@@ -2,6 +2,8 @@
 
 <img src="./src/images/comfort.jpg" width="250" height="400">
 
+**This is an exercise in passing props to components, making lists, and making calculations.**
+
 ### Header Component:
 
 - Pass a name object as a prop from the App component to the Header Component.
