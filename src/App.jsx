@@ -4,18 +4,22 @@ import Main from "./components/Main";
 
 import recipes from "./data/data.json";
 
+import "./App.css";
+
 const name = {
-  firstName: "Add a string value with your First Name",
-  lastName: "Add a string value with your Last Name"
+  firstName: "JD",
+  lastName: "Richards"
 };
+
+const sortedRecipes = recipes.sort((a, b) => a.title.localeCompare(b.title));
 
 const App = () => {
   return (
     <div>
-      <Header />
+      <Header name={name} />
       <div className="container">
-        <Aside />
-        <Main />
+        <Aside name={name} recipes={recipes} />
+        <Main recipes={sortedRecipes} />
       </div>
     </div>
   );
