@@ -1,8 +1,8 @@
 # ReactJS Recipe Diary
 
-## This is an exercise in passing props to components, making lists, and making calculations.
-
 <img src="./src/images/comfort.jpg" width="250" height="400">
+
+## This is an exercise in passing props to components, making lists, and making calculations.
 
 ### Header Component:
 
