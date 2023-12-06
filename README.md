@@ -2,7 +2,7 @@
 
 # ReactJS Recipe Diary
 
-### This is an exercise in passing props to components, making lists, and making calculations.
+#### This is an exercise in passing props to components, making lists, and making calculations.
 
 **INSTRUCTIONS:**
 
