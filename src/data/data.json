@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "title": "Classic Margherita Pizza",
+    "chef": "Gordon Ramsay",
+    "summary": "A simple yet delicious pizza with fresh tomatoes, mozzarella, basil, and a homemade crust.",
+    "minutesToCook": 30,
+    "yearCreated": 2010,
+    "isVegetarian": true
+  },
+  {
+    "id": 2,
+    "title": "Spicy Thai Green Curry",
+    "chef": "Ming Tsai",
+    "summary": "Aromatic and rich Thai curry made with green chili, lemongrass, coconut milk, and chicken.",
+    "minutesToCook": 45,
+    "yearCreated": 2008,
+    "isVegetarian": false
+  },
+  {
+    "id": 3,
+    "title": "Vegetarian Lasagna",
+    "chef": "Jamie Oliver",
+    "summary": "A hearty lasagna layered with a variety of roasted vegetables, rich tomato sauce, and creamy béchamel.",
+    "minutesToCook": 60,
+    "yearCreated": 2012,
+    "isVegetarian": true
+  },
+  {
+    "id": 4,
+    "title": "Avocado Sushi Rolls",
+    "chef": "Nobu Matsuhisa",
+    "summary": "Traditional Japanese sushi rolls with nori, sushi rice, and fresh avocado, cucumber, and bell pepper.",
+    "minutesToCook": 50,
+    "yearCreated": 2000,
+    "isVegetarian": true
+  },
+  {
+    "id": 5,
+    "title": "Beef Stroganoff",
+    "chef": "Madhur Jaffrey",
+    "summary": "A Russian dish of sautéed pieces of beef served in a sauce with smetana (sour cream).",
+    "minutesToCook": 40,
+    "yearCreated": 1999,
+    "isVegetarian": false
+  },
+  {
+    "id": 6,
+    "title": "Grilled Salmon with Asparagus",
+    "chef": "Gordon Ramsay",
+    "summary": "A simple and elegant dish featuring perfectly grilled salmon served with seasoned asparagus.",
+    "minutesToCook": 20,
+    "yearCreated": 2015,
+    "isVegetarian": false
+  },
+  {
+    "id": 7,
+    "title": "Summer Berry Pavlova",
+    "chef": "Jamie Oliver",
+    "summary": "A light, meringue-based dessert topped with fresh berries and whipped cream, perfect for summer.",
+    "minutesToCook": 75,
+    "yearCreated": 2007,
+    "isVegetarian": true
+  }
+]
