@@ -1,5 +1,7 @@
 # ReactJS Recipe Diary
 
+<img src="./src/images/comfort.jpg" width="250" height="400">
+
 ### Header Component:
 
 - Pass a name object as a prop from the App component to the Header Component.
