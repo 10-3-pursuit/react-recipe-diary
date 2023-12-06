@@ -4,6 +4,8 @@
 
 ## This is an exercise in passing props to components, making lists, and making calculations.
 
+**INSTRUCTIONS:**
+
 ### Header Component:
 
 - Pass a name object as a prop from the App component to the Header Component.
