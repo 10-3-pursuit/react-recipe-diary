@@ -7,7 +7,7 @@
 **INSTRUCTIONS:**
 Refer to the image below
 
-<img src="./src/images/browser.png" width="500" height="300">
+<img src="./src/images/browser.png" width="700" height="500">
 
 ### Header Component:
 
@@ -40,4 +40,4 @@ Refer to the image below
 1. Replace the "All Recipes" header with an image of your choice. You can add this image to your directory or use an external link (with 'http').
 1. Consider additional features or information you could incorporate into this app.
 
-<img src="./src/images/bonus.png" width="500" height="300">
+<img src="./src/images/bonus.png" width="700" height="500">
