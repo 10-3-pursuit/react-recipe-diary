@@ -1,6 +1,8 @@
 const Header = ({ name }) => {
   return (
-    <h1>{name.firstName}'s Recipe Diary</h1>
+    <header>
+      <h1>{name.firstName}'s Recipe Diary</h1>
+    </header>
   );
 };
 
