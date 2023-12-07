@@ -17,7 +17,7 @@ Refer to the image below
 ### Aside Component:
 
 - Pass both the name object and the recipes array as props to the Aside component.
-- Create an `<h2>` tag displaying `<FirstName>’s` List (e.g., "JD’s Lists").
+- Using your name props, create an `<h2>` tag displaying the first name with an apostrophe 's' and the word Lists (e.g., "JD’s Lists").
 - Add two `<h3>` tags: one labeled ‘Vegetarian’ and the other ‘Non-Vegetarian’.
 - Under each `<h3>` tag, create an unordered list.
 - In each list, using `<li>s` display the relevant recipes based on the isVegetarian key from the data.
@@ -25,11 +25,10 @@ Refer to the image below
 ### Main Component:
 
 - Add an `<h2>` tag titled ‘All Descriptions’.
-- List out all of the recipes:
-  - Use an `<h4>` tag for the titles.
-  - Use a `<p>` tag for the summaries.
-  - Display the minutes to cook within a `<span>` tag.
-  - see image below
+- List all of the recipes:
+  - Use an `<h4>` tag for the title.
+  - Use a `<p>` tag for the summart.
+  - Use a `<span>` tag for displaying the minutes. (see image above)
 
 ## Bonus Challenges:
 
