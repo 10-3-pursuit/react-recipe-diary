@@ -36,16 +36,26 @@ Refer to the image below
 
 ## Bonus Challenges:
 
-1. Create a `ListItem` component for the `<li>` element and utilize it in Main.js when mapping through the recipes.
+1.  Create a `ListItem` component for the `<li>` element and utilize it in Main.js when mapping through the recipes.
 
-1. Sort the recipes alphabetically in the App.jsx component by title and send that sorted array as props to the Main.jsx component.
+1.  Sort the recipes alphabetically in the App.jsx component by title and send that sorted array as props to the Main.jsx component.
 
-1. Use this sorted array prop, instead of the original array, to list the recipes alphabetically by title.
+1.  Use this sorted array prop, instead of the original array, to list the recipes alphabetically by title.
 
-1. In the Aside component, create another list showcasing the fastest recipes (those that take 40 minutes or less to cook). Give it a title of 40 minutes or less. (see image above)
+1.  In the Aside component, create another list showcasing the fastest recipes (those that take 40 minutes or less to cook). Give it a title of 40 minutes or less. (see image above)
 
-1. Replace the "All Recipes" header with an image of your choice. You can add this image to your directory or use an external link (with 'http'). (see image below)
+1.  Replace the "All Recipes" header with an image of your choice. You can add this image to your directory or use an external link (with 'http'). (see image below)
 
-1. Consider additional features or information you could incorporate into this app.
+1.  Consider additional features or information you could incorporate into this app.
 
-<img src="./src/images/bonus.png" width="700" height="400">
+1.  Create a new Component that sits as an `<aside>` on the right side of the `<Main/>` component.
+
+    - adjust the CSS so that it now uses 3 columns instead of two
+
+    - this new aside should be the same width as the one on the left.
+
+    - Compute the average cooking time of all the recipes. Use a helper function to calculate the average based on the minutesToCook property from each recipe.
+
+    - Create a function that calculates the total number of recipes each chef has contributed.
+
+    - Present these counts in a list format, showing each chef's name alongside the number of recipes they've contributed.
