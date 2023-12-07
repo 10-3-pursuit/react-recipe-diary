@@ -1,5 +1,15 @@
-const Main = () => {
-  return <div>Main</div>;
+import ListItem from "./ListItem";
+const Main = ({recipes}) => {
+  
+  return (
+    <main>
+      <h2>"All Descriptions"</h2>
+      <ul>
+       {recipes.map((recipe) => (
+        <ListItem key={recipe.id} recipe={recipe} />
+       ))}
+      </ul>
+    </main>
+    );
 };
-
-export default Main;
+export default Main
