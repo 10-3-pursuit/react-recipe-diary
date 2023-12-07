@@ -12,7 +12,7 @@ Refer to the image below
 ### Header Component:
 
 - Pass a name object as a prop from the App component to the Header Component.
-- Include a prop for the first name in your Header and append hard-coded text to - indicate it's your Recipe Diary (e.g., "JD’s Recipe Diary").
+- Use the name prop for the first name in your Header and append hard-coded text to - indicate it's your Recipe Diary (e.g., "JD’s Recipe Diary").
 
 ### Aside Component:
 
