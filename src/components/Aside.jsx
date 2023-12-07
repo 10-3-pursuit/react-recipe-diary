@@ -1,5 +1,28 @@
-const Aside = () => {
-  return <div>Aside</div>;
+const Aside = ({ name, recipes }) => {
+  //to use for a seperate list component
+  // const vegetarian = recipes.filter((recipe) => recipe.isVegetarian);
+  // const nonVegetarian = recipes.filter((recipe) => !recipe.isVegetarian);
+  return (
+    <div>
+      <h2>{name.firstName}'s Lists</h2>
+      <h3>Vegetarian</h3>
+      <ul>
+        {recipes.map((recipe) => {
+          return (
+            <li key={recipe.id}>{recipe.isVegetarian && recipe.title}</li>
+          );
+        })}
+      </ul>
+      <h3>Non-Vegetarian</h3>
+      <ul>
+        {recipes.map((recipe) => {
+          return (
+            <li key={recipe.id}>{!recipe.isVegetarian && recipe.title}</li>
+          );
+        })}
+      </ul>
+    </div>
+  );
 };
 
 export default Aside;
