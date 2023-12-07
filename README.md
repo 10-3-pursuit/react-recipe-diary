@@ -40,4 +40,4 @@ Refer to the image below
 1. Replace the "All Recipes" header with an image of your choice. You can add this image to your directory or use an external link (with 'http').
 1. Consider additional features or information you could incorporate into this app.
 
-<img src="./src/images/bonus.png" width="700" height="500">
+<img src="./src/images/bonus.png" width="700" height="400">
