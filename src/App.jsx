@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Main from "./components/Main";
 import './App.css'
 
+//DATA
 import recipes from "./data/data.json";
 
 const name = {
