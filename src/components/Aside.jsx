@@ -3,7 +3,7 @@ const Aside = ({ name, recipes }) => {
   // const vegetarian = recipes.filter((recipe) => recipe.isVegetarian);
   // const nonVegetarian = recipes.filter((recipe) => !recipe.isVegetarian);
   return (
-    <div>
+    <aside>
       <h2>{name.firstName}'s Lists</h2>
       <h3>Vegetarian</h3>
       <ul>
@@ -21,7 +21,7 @@ const Aside = ({ name, recipes }) => {
           );
         })}
       </ul>
-    </div>
+    </aside>
   );
 };
 
