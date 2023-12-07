@@ -28,7 +28,7 @@ const App = () => {
       <div className="container">
         <Aside name={name} recipes={recipes}/>
         <Main recipes={sortedRecipes} />
-        <AsideTwo />
+        <AsideTwo recipes={recipes}/>
       </div>
     </div>
   );

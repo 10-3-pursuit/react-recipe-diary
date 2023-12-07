@@ -31,7 +31,8 @@ header h1 {
 }
 
 aside,
-main {
+main,
+.aside-two {
   text-align: center;
   min-height: auto; /* Allows height to grow with content */
   padding-top: 2rem;
@@ -61,6 +62,10 @@ aside ul li {
 }
 
 main ul li {
+  margin-top: 2rem;
+}
+
+.aside-two ul li {
   margin-top: 2rem;
 }
 
