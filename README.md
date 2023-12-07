@@ -34,10 +34,13 @@ Refer to the image below
 ## Bonus Challenges:
 
 1. Create a ListItem component for the `<li>` elements and utilize it in Main.js when mapping through the recipes.
-1. Sort the recipes in the App.jsx component by title and send information as props to the Main.jsx component alphabetically by title.
-1. Implement a helper function to sort the recipes by title in the Main component.
-1. In the Aside component, create another list showcasing the fastest recipes (those that take 40 minutes or less to cook).
+
+1. Sort the recipes in the App.jsx component by title and send that sorted array as props to the Main.jsx component. Use this prop to list the recipes alphabetically by title.
+
+1. In the Aside component, create another list showcasing the fastest recipes (those that take 40 minutes or less to cook). Give it a title of 40 minutes or less.
+
 1. Replace the "All Recipes" header with an image of your choice. You can add this image to your directory or use an external link (with 'http').
+
 1. Consider additional features or information you could incorporate into this app.
 
 <img src="./src/images/bonus.png" width="700" height="400">
