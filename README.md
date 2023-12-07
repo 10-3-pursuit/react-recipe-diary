@@ -21,6 +21,7 @@ Refer to the image below
 - Add two `<h3>` tags: one labeled ‘Vegetarian’ and the other ‘Non-Vegetarian’.
 - Under each `<h3>` tag, create an unordered list.
 - In each list, using `<li>s` display the relevant recipes based on the isVegetarian key from the data.
+- Use the id as the key when you map through the list
 
 ### Main Component:
 
