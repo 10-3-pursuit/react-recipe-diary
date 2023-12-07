@@ -1,6 +1,7 @@
 import Aside from "./components/Aside";
 import Header from "./components/Header";
 import Main from "./components/Main";
+import AsideTwo from "./components/AsideTwo";
 
 import recipes from "./data/data.json";
 
@@ -27,6 +28,7 @@ const App = () => {
       <div className="container">
         <Aside name={name} recipes={recipes}/>
         <Main recipes={sortedRecipes} />
+        <AsideTwo />
       </div>
     </div>
   );
