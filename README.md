@@ -5,6 +5,9 @@
 #### This is an exercise in passing props to components, making lists, and making calculations.
 
 **INSTRUCTIONS:**
+
+`fork` and `clone` this repo.
+
 Refer to the image below
 
 <img src="./src/images/browser.png" width="700" height="500">
