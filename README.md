@@ -16,7 +16,7 @@ Refer to the image below
 
 ### Aside Component:
 
-- Pass both the name and the recipes props to the Aside component.
+- Pass both the name object and the recipes array as props to the Aside component.
 - Create an `<h2>` tag displaying `<FirstName>’s` List (e.g., "JD’s Lists").
 - Add two `<h3>` tags: one labeled ‘Vegetarian’ and the other ‘Non-Vegetarian’.
 - Under each `<h3>` tag, create an unordered list.
