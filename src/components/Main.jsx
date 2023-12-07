@@ -1,5 +1,17 @@
-const Main = () => {
-  return <div>Main</div>;
+const Main = (props) => {
+  return (
+  <main>
+    <h2>All Recipes</h2>
+    <ul>
+      {props.recipes.map((recipe) => <li key={recipe.id}>
+      <h4>{recipe.title}</h4>
+      <p>{recipe.summary}</p>
+      <span>Preparation Time: {recipe.minutesToCook}</span>
+      </li> 
+    )}
+    </ul> 
+  </main>
+  )
 };
 
 export default Main;
