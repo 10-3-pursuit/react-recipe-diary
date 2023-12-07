@@ -15,7 +15,7 @@ Refer to the image below
 ### Header Component:
 
 - Pass a name object as a prop from the App component to the Header Component.
-- Use the name prop for the first name in your Header and append hard-coded text to - indicate it's your Recipe Diary (e.g., "JD’s Recipe Diary").
+- In an `h1` tag, use the name prop for the first name in your Header and append hard-coded text to - indicate it's your Recipe Diary (e.g., "JD’s Recipe Diary").
 
 ### Aside Component:
 
@@ -29,18 +29,20 @@ Refer to the image below
 ### Main Component:
 
 - Add an `<h2>` tag titled ‘All Descriptions’.
-- List all of the recipes:
+- List all of the recipes: (see the image above)
   - Use an `<h4>` tag for the title.
   - Use a `<p>` tag for the summart.
   - Use a `<span>` tag for displaying the minutes. (see image above)
 
 ## Bonus Challenges:
 
-1. Create a ListItem component for the `<li>` elements and utilize it in Main.js when mapping through the recipes.
+1. Create a `ListItem` component for the `<li>` element and utilize it in Main.js when mapping through the recipes.
 
-1. Sort the recipes in the App.jsx component by title and send that sorted array as props to the Main.jsx component. Use this prop to list the recipes alphabetically by title.
+1. Sort the recipes alphabetically in the App.jsx component by title and send that sorted array as props to the Main.jsx component.
 
-1. In the Aside component, create another list showcasing the fastest recipes (those that take 40 minutes or less to cook). Give it a title of 40 minutes or less.
+1. Use this sorted array prop, instead of the original array, to list the recipes alphabetically by title.
+
+1. In the Aside component, create another list showcasing the fastest recipes (those that take 40 minutes or less to cook). Give it a title of 40 minutes or less. (see image above)
 
 1. Replace the "All Recipes" header with an image of your choice. You can add this image to your directory or use an external link (with 'http'). (see image below)
 
