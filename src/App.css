@@ -31,7 +31,8 @@ header h1 {
 }
 
 aside,
-main {
+main,
+.aside-two {
   text-align: center;
   min-height: auto; /* Allows height to grow with content */
   padding-top: 2rem;
@@ -64,6 +65,10 @@ main ul li {
   margin-top: 2rem;
 }
 
+.aside-two ul li {
+  margin-top: 2rem;
+}
+
 h3 {
   margin: 1rem 0 0 0;
 }
@@ -75,6 +80,6 @@ span {
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 3fr 1fr;
   height: 1000px;
 }
