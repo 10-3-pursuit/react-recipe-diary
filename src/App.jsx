@@ -14,8 +14,8 @@ const App = () => {
     <div>
       <Header name={name} />
       <div className="container">
-        <Aside />
-        <Main />
+        <Aside name={name}recipes={recipes} />
+        <Main recipes={recipes}/>
       </div>
     </div>
   );
