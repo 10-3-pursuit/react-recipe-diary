@@ -1,6 +1,8 @@
 const Header = (props) => {
-const { firstName, lastName } = props.name
-  return <header>{firstName} {lastName} 's Recipe Diary</header>;
+const { name } = props
+  return <header>
+    <h1> {name.firstName}'s Recipe Diary</h1>
+    </header>;
 };
 
 export default Header;
