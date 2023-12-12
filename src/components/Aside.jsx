@@ -21,6 +21,12 @@ const Aside = ({ name, recipes }) => {
           );
         })}
       </ul>
+      <h3>40 Minutes or Less</h3>
+      <ul>
+        {recipes.filter(recipe => recipe.minutesToCook <= 40).map((quickRecipe) => {
+          return <li key={quickRecipe.id}>{quickRecipe.title}</li>
+        })}
+      </ul>
     </aside>
   );
 };
