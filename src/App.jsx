@@ -1,20 +1,22 @@
 import Aside from "./components/Aside";
 import Header from "./components/Header";
 import Main from "./components/Main";
+import "./App.css"
 
 import recipes from "./data/data.json";
 
 const name = {
-  firstName: "Add a string value with your First Name",
-  lastName: "Add a string value with your Last Name"
+  firstName: "Jen",
+  lastName: "Jones"
 };
 
 const App = () => {
   return (
     <div>
-      <Header />
+      <Header name={name} /> 
+      {/* props that is being passed to the header component */}
       <div className="container">
-        <Aside />
+        <Aside recipes={recipes} name={name}/>
         <Main />
       </div>
     </div>
@@ -22,3 +24,4 @@ const App = () => {
 };
 
 export default App;
+
