@@ -2,20 +2,22 @@ import Aside from "./components/Aside";
 import Header from "./components/Header";
 import Main from "./components/Main";
 
+
 import recipes from "./data/data.json";
+import './App.css'
 
 const name = {
-  firstName: "Add a string value with your First Name",
-  lastName: "Add a string value with your Last Name"
+  firstName: "Lenny",
+  lastName: "Lopez"
 };
 
 const App = () => {
   return (
     <div>
-      <Header />
+      <Header name={name}/>
       <div className="container">
-        <Aside />
-        <Main />
+        <Aside name={name} recipes={recipes}/>
+        <Main recipes={recipes}/>
       </div>
     </div>
   );
